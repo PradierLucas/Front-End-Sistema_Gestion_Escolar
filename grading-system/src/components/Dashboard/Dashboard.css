@@ -1,0 +1,64 @@
+  
+  .Dash {
+     /*padding: 0.5rem 3.5rem;*/ 
+   /* padding: 0.5rem 3.5rem; */
+   color: var(--black);
+   background: linear-gradient(106.37deg, #F3F3F3 29.63%, #DDDDDD 51.55%, #CCCCCC 90.85%);
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Inter', sans-serif;
+  }
+  .DashGlass {
+    display: grid;
+  height: 97%;
+  width: 97%;
+  background: var(--glass);
+  border-radius: 2rem;
+  gap: 16px;
+  grid-template-columns: 11rem auto 20rem;
+  overflow: hidden;
+  box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.09 );
+  }
+  @media screen and (max-width: 1200px) {
+    .DashGlass{
+      grid-template-columns: 10% 50% auto;
+      overflow-y: scroll;
+    } 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .DashGlass{
+      grid-template-columns: 1fr;
+    } 
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .Dash-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .log-out{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    position: left;
+    border-radius: 0.7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+  }

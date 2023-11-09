@@ -1,0 +1,12 @@
+.foot {
+    margin-top: 100px;
+  
+    height: 90px;
+    
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: rgb(245, 238, 238);
+  
+    padding: 16px;
+}

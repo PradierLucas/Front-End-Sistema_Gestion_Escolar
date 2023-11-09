@@ -1,0 +1,16 @@
+:root {
+  --color-primary:  #F9A826;     /* Amarillo - Color primario */
+  --color-accent-light: #F5F5F5;   /* Gris Claro - Para texto o elementos sutiles */
+  --color-accent-dark: #333333;    /* Gris Oscuro - Para elementos de contraste */
+  --color-accent-blue: #3498db;    /* Azul Claro - Para resaltar enlaces o botones */
+  --color-accent-green: #4CAF50;   /* Verde - Para acciones positivas */
+  --color-accent-red: #E74C3C;     /* Rojo - Para acciones negativas */
+  --color-accent-orange: #FFA500;  /* Naranja - Para elementos importantes */
+  --color-text: #242D49;          /* Gris Oscuro - Para texto */
+  --glass: rgba(255, 255, 255, 0.54);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --activeItem: rgba(47,46,65, 0.54);
+  --pink: #F9A826;
+}
+
